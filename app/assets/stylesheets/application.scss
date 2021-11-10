@@ -1,0 +1,25 @@
+// Graphical variables
+@import "config/fonts";
+@import "config/colors";
+@import "config/bootstrap_variables";
+
+// External libraries
+@import "bootstrap/scss/bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+// Your CSS partials
+@import "components/index";
+@import "pages/index";
+
+body {
+  background-color: rgb(255, 255, 213);
+}
+
+.container {
+  border: solid grey;
+  margin-top: 20px;
+  padding: 20px;
+  box-shadow: 2px 2px 14px red;
+  background-color: rgb(240, 240, 240)
+}

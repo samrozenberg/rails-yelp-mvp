@@ -1,0 +1,8 @@
+<%= simple_form_for(@restaurant) do |f| %>
+  <%= f.input :name %>
+  <%= f.input :address %>
+  <%= f.input :category, collection: ["Chinese", "Italian", "Japanese", "French", "Belgian"] %>
+  <%= f.input :phone_number %>
+  <%= f.submit %>
+  <%= link_to "Cancel", restaurants_path %>
+<% end %>
